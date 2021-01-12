@@ -156,8 +156,6 @@ F 3 "~" H 1250 3100 50  0001 C CNN
 	1    1250 3100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	950  1550 1800 1550
 Connection ~ 1800 1550
 $Comp
 L Connector:AudioJack2 J?
@@ -248,11 +246,6 @@ Wire Wire Line
 	950  1950 1450 1950
 Wire Wire Line
 	1450 1950 1450 2000
-Wire Wire Line
-	950  1450 1450 1450
-Wire Wire Line
-	1450 1450 1450 1950
-Connection ~ 1450 1950
 $Comp
 L power:GND #PWR?
 U 1 1 60011745
@@ -1722,4 +1715,22 @@ Text Notes 10350 4650 0    50   ~ 0
 PWM OUT
 Text Notes 10350 5450 0    50   ~ 0
 SAW OUT
+$Comp
+L Device:R R?
+U 1 1 604EF043
+P 1650 1550
+F 0 "R?" V 1443 1550 50  0000 C CNN
+F 1 "100k" V 1534 1550 50  0000 C CNN
+F 2 "" V 1580 1550 50  0001 C CNN
+F 3 "~" H 1650 1550 50  0001 C CNN
+	1    1650 1550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	950  1550 1500 1550
+Wire Wire Line
+	950  1450 1450 1450
+Wire Wire Line
+	1450 1450 1450 1950
+Connection ~ 1450 1950
 $EndSCHEMATC
