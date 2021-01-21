@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 33)
+    (drawings 30)
     (tracks 663)
     (zones 0)
     (modules 73)
@@ -3200,15 +3200,6 @@
     )
   )
 
-  (gr_text "Saw/PWM VCO\nby Jake Drahos" (at 152 38) (layer F.SilkS)
-    (effects (font (size 0.8 0.8) (thickness 0.15)))
-  )
-  (gr_text "Based on Thomas\nHenry's VCO-1" (at 152.5 43) (layer F.SilkS)
-    (effects (font (size 0.8 0.8) (thickness 0.15)))
-  )
-  (gr_text "REV 1" (at 157 32.5) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
   (gr_text "Saw Trim Shift" (at 126.5 106.5) (layer B.SilkS) (tstamp 6009BCE7)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
