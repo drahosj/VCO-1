@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 33)
+    (drawings 37)
     (tracks 663)
     (zones 0)
     (modules 73)
@@ -230,7 +230,7 @@
     (descr "Mounting Hole 3.2mm, no annular, M3")
     (tags "mounting hole 3.2mm no annular m3")
     (attr virtual)
-    (fp_text reference REF** (at 0 -4.2) (layer F.SilkS)
+    (fp_text reference REF** (at 0 -4.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole_3.2mm_M3 (at 0 4.2) (layer F.Fab)
@@ -249,7 +249,7 @@
     (descr "Mounting Hole 3.2mm, no annular, M3")
     (tags "mounting hole 3.2mm no annular m3")
     (attr virtual)
-    (fp_text reference REF** (at 0 -4.2) (layer F.SilkS)
+    (fp_text reference REF** (at 0 -4.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole_3.2mm_M3 (at 0 4.2) (layer F.Fab)
@@ -268,7 +268,7 @@
     (descr "Mounting Hole 3.2mm, no annular, M3")
     (tags "mounting hole 3.2mm no annular m3")
     (attr virtual)
-    (fp_text reference REF** (at 0 -4.2) (layer F.SilkS)
+    (fp_text reference REF** (at 0 -4.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole_3.2mm_M3 (at 0 4.2) (layer F.Fab)
@@ -287,7 +287,7 @@
     (descr "Mounting Hole 3.2mm, no annular, M3")
     (tags "mounting hole 3.2mm no annular m3")
     (attr virtual)
-    (fp_text reference REF** (at 0 -4.2) (layer F.SilkS)
+    (fp_text reference REF** (at 0 -4.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole_3.2mm_M3 (at 0 4.2) (layer F.Fab)
@@ -3200,13 +3200,17 @@
     )
   )
 
-  (gr_text "Saw/PWM VCO\nby Jake Drahos" (at 152 38) (layer F.SilkS)
+  (gr_line (start 160 44) (end 154 44) (layer F.SilkS) (width 0.12) (tstamp 6009CD6C))
+  (gr_line (start 160 46) (end 160 44) (layer F.SilkS) (width 0.12))
+  (gr_line (start 154 46) (end 160 46) (layer F.SilkS) (width 0.12))
+  (gr_line (start 154 44) (end 154 46) (layer F.SilkS) (width 0.12))
+  (gr_text "Saw/PWM VCO\nby Jake Drahos" (at 148 33.5) (layer F.SilkS)
     (effects (font (size 0.8 0.8) (thickness 0.15)))
   )
-  (gr_text "Based on Thomas\nHenry's VCO-1" (at 152.5 43) (layer F.SilkS)
+  (gr_text "Based on Thomas\nHenry's VCO-1" (at 148 39) (layer F.SilkS)
     (effects (font (size 0.8 0.8) (thickness 0.15)))
   )
-  (gr_text "REV 1" (at 157 32.5) (layer F.SilkS)
+  (gr_text "REV 1" (at 156.5 45) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (gr_text "Saw Trim Shift" (at 126.5 106.5) (layer B.SilkS) (tstamp 6009BCE7)
